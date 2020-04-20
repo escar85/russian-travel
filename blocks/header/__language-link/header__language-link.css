@@ -1,0 +1,23 @@
+@import url('./_underline/header__language-link_underline_yes.css');
+@import url('./_underline/header__language-link_underline_no.css');
+
+.header__language-link {
+  font-size: 24px;
+  line-height: 1.1;
+  font-weight: normal;
+  margin-right: 18px;
+  color: white;
+}
+
+.header__language-link:last-of-type {
+  margin-right: 0;
+}
+
+
+
+@media (max-width: 425px) {
+  .header__language-link {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

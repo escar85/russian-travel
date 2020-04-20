@@ -1,0 +1,24 @@
+@import url('./__links/footer__links.css');
+@import url('./__link/footer__link.css');
+@import url('./__copyright/footer__copyright.css');
+
+.footer {
+  margin: 96px auto 24px;
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-wrap: wrap;
+    margin-top: 88px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer {
+    margin-top: 64px;
+    flex-direction: column;
+  }
+}

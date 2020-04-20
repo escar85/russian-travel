@@ -1,0 +1,18 @@
+.lead__image {
+  min-height: 580px;
+  object-fit: cover;
+  margin-top: 56px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .lead__image {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 425px) {
+  .lead__image {
+    min-height: 200px;
+  }
+}
