@@ -9,4 +9,4 @@
 #### Проект адаптирован под различные устройства с разрешением от 320px.
 
 #### Ссылка на проект:
-#### [https://escar85.github.io/russian-travel/]
+#### https://escar85.github.io/russian-travel/
