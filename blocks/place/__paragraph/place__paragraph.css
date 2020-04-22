@@ -10,15 +10,20 @@
   margin: 0;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 26px;
+  }
+}
+
+@media (max-width: 500px) {
+  .place__paragraph {
     width: 90vw;
     margin: 24px auto 0;
   }
+}
 
   .place__paragraph:first-of-type {
     margin: 0 auto;
   }
-}

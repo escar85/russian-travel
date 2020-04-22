@@ -9,7 +9,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, minmax(fit-content, 1fr));
-  width: 90vw;
+  max-width: 1200px;
   margin: 80px auto 0;
   grid-column-gap: 38px;
   grid-row-gap: 42px;
@@ -22,7 +22,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .place {
     margin-top: 48px;
     grid-row-gap: 32px;

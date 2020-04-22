@@ -4,7 +4,7 @@
 
 .footer {
   margin: 96px auto 24px;
-  width: 90vw;
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
 }

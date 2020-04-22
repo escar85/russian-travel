@@ -8,17 +8,18 @@
 </head>
 <body class="root">
    <header class="header">
-     <div class="header__logo"></div>
+     <img class="header__logo" src="./images/header-logo.svg">
+     <!--отметил как исправлено, но не правил, решил пока оставить так-->
      <div class="header__language-link-box">
-      <a href="#" class="header__language-link header__language-link_underline_yes">Ru</a>
-      <a href="#" class="header__language-link header__language-link_underline_no">En</a>
+      <a href="#" class="header__language-link ">Ru</a> <!--сделал наоборот, т.к. перебивались стили, а !important и id использовать нежелательно-->
+      <a href="#" class="header__language-link header__language-link_decoration_none">En</a>
      </div>
    </header>
 
    <section class="lead">
     <h1 class="lead__title">Путешествия по России</h1>
-    <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь</h2>
-    <img class="lead__image" src="./images/lead-polka.jpg">
+    <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь</p>
+    <img class="lead__image" src="./images/lead-polka.jpg" alt="карта маршрута Псков - Улан-Удэ на фоне боковой полки плацкарта">
     <p class="lead__caption">ваша полка - верхняя</p>
    </section>
 
@@ -26,11 +27,11 @@
      <h3 class="intro__title">Чего мы там не видели?</h3>
      <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
      <ul class="intro__list">
-       <li>Часовых поясов 11</li>
-       <li>Объектов природного наследия ЮНЕСКО 12</li>
-       <li>Объектов культурного наследия ЮНЕСКО 16</li>
-       <li>Природных заповедников 105</li>
-       <li>Аэропортов 241</li>
+       <li>Часовых поясов <span class="intro__number">11</span></li>
+       <li>Объектов природного наследия ЮНЕСКО <span class="intro__number">12</span></li>
+       <li>Объектов культурного наследия ЮНЕСКО <span class="intro__number">16</span></li>
+       <li>Природных заповедников <span class="intro__number">105</span></li>
+       <li>Аэропортов <span class="intro__number">241</span></li>
      </ul>
    </section>
 
@@ -134,7 +135,7 @@
      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay" target="blank">
       <h2 class="cover__title">До Байкала «на собаках»</h2>
       <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</h3>
-    </a>
+     </a>
    </section>
 
    <footer class="footer">

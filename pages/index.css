@@ -9,8 +9,3 @@
 @import url('../blocks/place/place.css');
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/footer/footer.css');
-
-a:hover {
-  opacity: 0.8;
-  transition: 1s;
-}

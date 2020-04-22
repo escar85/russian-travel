@@ -1,22 +1,49 @@
 .cover__overlay {
   color: white;
-  position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
+  position: relative;
+  width: 100%;
+  min-height: 740px;
+  background: #2A2C2F;
+  opacity: 0.3;
+  transition: all 0.1s linear;
+  text-decoration: none;
 }
 
+@media (max-width: 1024px) {
+  .cover__overlay {
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 540px) {
+  .cover__overlay {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover__overlay {
+    min-height: 200px;
+  }
+}
+/*
 .cover__overlay::before {
-  content: '';
-  position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-  background: rgba(0, 0, 0, 0.3);
+  position: relative;
+	width: 100%;
+  padding-bottom: 54%;
+  background: #2A2C2F;
+  opacity: 0.3;
   transition: all 1s linear;
-}
+} */
 
-.cover__overlay:hover::before {
-  background: rgba(0, 0, 0, 0.8);
+.cover__overlay:hover {
+  background: #2A2C2F;
+  opacity: 0.8;
+  transition: all 1s linear;;
+}

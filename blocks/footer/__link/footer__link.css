@@ -6,10 +6,15 @@
   line-height: 18px;
   color: #FFFFFF;
   text-decoration: none;
+  transition: 1s;
 }
 
 .footer__link:last-of-type {
   margin-right: 0;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 425px) {

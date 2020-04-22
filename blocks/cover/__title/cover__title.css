@@ -3,11 +3,8 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
-  position: absolute;
   max-width: 560px;
-  top: 30%;
-  left: calc((100% - 560px)/2);
-  margin: 0;
+  margin: 20% auto 0;
 }
 
 @media (max-width: 540px) {
@@ -15,7 +12,15 @@
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
-    top: 15%;
-    left: calc((100% - 288px)/2);
+    margin-top: 15%;
+  }
+}
+
+@media (max-width: 540px) {
+  .cover__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin-top: 10%;
   }
 }

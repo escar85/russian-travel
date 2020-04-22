@@ -1,5 +1,4 @@
-@import url('./_underline/header__language-link_underline_yes.css');
-@import url('./_underline/header__language-link_underline_no.css');
+@import url('./_decoration/header__language-link_decoration_none.css');
 
 .header__language-link {
   font-size: 24px;
@@ -7,13 +6,16 @@
   font-weight: normal;
   margin-right: 18px;
   color: white;
+  transition: 1s;
 }
 
 .header__language-link:last-of-type {
   margin-right: 0;
 }
 
-
+.header__language-link:hover {
+  opacity: 0.8;
+}
 
 @media (max-width: 425px) {
   .header__language-link {

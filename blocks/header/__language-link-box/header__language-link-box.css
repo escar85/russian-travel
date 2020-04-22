@@ -1,4 +1,5 @@
 .header__language-link-box {
   align-self: flex-end;
   margin-bottom: 6px;
+  list-style: none;
 }
