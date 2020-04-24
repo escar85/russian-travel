@@ -2,12 +2,19 @@
   color: white;
   position: relative;
   width: 100%;
-  min-height: 740px;
-  background: #2A2C2F;
-  opacity: 0.3;
+  padding-bottom: 22%;
+  background: rgba(42, 44, 47, 0.3);
   transition: all 0.1s linear;
   text-decoration: none;
 }
+
+.cover__overlay:hover {
+  background: rgba(42, 44, 47, 0.8);
+  transition: all 1s linear;;
+}
+
+/*  А тут наверное вообще все лишнее...
+
 
 @media (max-width: 1024px) {
   .cover__overlay {
@@ -42,8 +49,4 @@
   transition: all 1s linear;
 } */
 
-.cover__overlay:hover {
-  background: #2A2C2F;
-  opacity: 0.8;
-  transition: all 1s linear;;
-}
+

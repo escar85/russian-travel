@@ -1,6 +1,8 @@
 @import url('./__logo/header__logo.css');
 @import url('./__language-link-box/header__language-link-box.css');
 @import url('./__language-link/header__language-link.css');
+@import url('./__language-link/_status_active/header__language-link_status_active.css');
+
 
 .header {
   margin: 28px auto 0;
