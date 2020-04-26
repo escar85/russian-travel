@@ -3,22 +3,38 @@
 @import url('./__copyright/footer__copyright.css');
 
 .footer {
-  margin: 96px auto 24px;
-  max-width: 1200px;
+  margin: 96px 48px 24px;
+  max-width: 1184px;
   display: flex;
   justify-content: space-between;
+}
+
+
+@media (min-width: 1281px) {
+  .footer {
+    margin: 96px auto 24px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    max-width: 90.5vw;
+    margin: 96px auto 24px;
+  }
 }
 
 @media (max-width: 768px) {
   .footer {
     flex-wrap: wrap;
     margin-top: 88px;
+    max-width: 93.7vw;
   }
 }
 
 @media (max-width: 425px) {
   .footer {
     margin-top: 64px;
+    margin-left: 16px;
     flex-direction: column;
   }
 }

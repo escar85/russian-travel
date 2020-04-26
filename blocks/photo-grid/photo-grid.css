@@ -5,12 +5,27 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-template-rows: repeat(3, 1fr);
-  grid-gap: 14px;
-  margin: 92px auto 0;
+  grid-gap: 16px;
+  margin: 92px 48px 0;
+}
+
+@media (min-width: 1281px) {
+  .photo-grid {
+    margin: 92px auto 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .photo-grid {
+    margin: 92px auto 0;
+    max-width: 90.5vw;
+    grid-gap: 14px;
+  }
 }
 
 @media (max-width: 768px) {
   .photo-grid {
+    max-width: 93.7vw;
     margin-top: 88px;
   }
 }

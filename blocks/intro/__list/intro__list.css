@@ -5,4 +5,11 @@
   list-style: none;
   padding: 0;
   margin-top: 32px;
+  max-width: 690px;
+}
+
+@media (max-width: 768px) {
+  .intro__list {
+    max-width: 720px;
+  }
 }

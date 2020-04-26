@@ -5,14 +5,34 @@
 
 
 .header {
-  margin: 28px auto 0;
-  max-width: 1200px;
+  margin: 28px 48px 0;
+  max-width: 1184px;
   display: flex;
   justify-content: space-between;
+}
+
+@media (min-width: 1281px) {
+  .header {
+    margin: 28px auto 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    margin: 28px auto 0;
+    max-width: 90.5vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    max-width: 93.7vw;
+  }
 }
 
 @media (max-width: 425px) {
   .header {
     margin-top: 16px;
+    max-width: 90vw;
   }
 }

@@ -3,8 +3,7 @@
 @import url('./__subtitle/cover__subtitle.css');
 
 .cover {
-  max-height: 740px;
-  max-width: 1200px;
+  max-width: 1184px;
   margin: 92px auto 0;
   position: relative;
   background: url(../../images/cover-trains.jpg);
