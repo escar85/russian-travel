@@ -12,34 +12,22 @@
   justify-content: center;
   align-items: center;
 }
-/* Пока оставлю на всякий... Но выглядит намного лучше
 
-
-@media (max-width: 1024px) {
-  .cover {
-    min-height: 640px;
-  }
-}  */
 
 @media (max-width: 768px) {
   .cover {
     margin-top: 88px;
-   /* min-height: 480px; */
   }
 }
 
 @media (max-width: 540px) {
   .cover {
     margin-top: 64px;
-   /* max-width: 540px;
-    min-height: 300px; */
   }
 }
 
 @media (max-width: 425px) {
   .cover {
     margin-top: 64px;
-    /*max-width: 320px;
-    min-height: 200px;*/
   }
 }
